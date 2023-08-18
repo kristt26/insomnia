@@ -1,0 +1,33 @@
+_id: req_649820f109b04f098c6bcf76f201b58d
+type: Request
+parentId: fld_bd31a70f20d346d69bff38c567258360
+modified: 1687317878307
+created: 1687317841799
+url: "{{ _.baseUrl }}"
+name: getKebutuhanKhusus
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetKebutuhanKhusus",
+        "token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687317841799
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

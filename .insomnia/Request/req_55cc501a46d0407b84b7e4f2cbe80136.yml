@@ -1,0 +1,29 @@
+_id: req_55cc501a46d0407b84b7e4f2cbe80136
+type: Request
+parentId: fld_9994b71559d042ac8099f8e236a1e20e
+modified: 1680933306763
+created: 1680933140049
+url: "{{ _.baseUr }}auth/auth"
+name: Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username" : "202111007",
+    	"password" : "202111007"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1680933140049
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

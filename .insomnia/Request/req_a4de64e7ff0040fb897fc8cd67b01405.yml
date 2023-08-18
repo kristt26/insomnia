@@ -1,0 +1,30 @@
+_id: req_a4de64e7ff0040fb897fc8cd67b01405
+type: Request
+parentId: fld_313737891df54ca89980c5be374c797e
+modified: 1687232885081
+created: 1687231184351
+url: "{{ _.baseUrl }}"
+name: getToken
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"act":"GetToken",
+    	"username":"143023",
+    	"password":"St1m1k_1011"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687231184351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_56c71cd9dcbe4524a53f1708f2e4b2f6
+type: Request
+parentId: fld_313737891df54ca89980c5be374c797e
+modified: 1687233212525
+created: 1687233074560
+url: "{{ _.baseUrl }}"
+name: getDictionary
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "token": "{{ _.token }}",
+        "act":"GetDictionary",
+        "fungsi":"GetDetailMahasiswaLulusDO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687233074560
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

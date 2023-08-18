@@ -1,0 +1,74 @@
+_id: req_c46c6a5f2f9e42138ea3a65d07b2a76d
+type: Request
+parentId: fld_1fe431d91bae4c41b69d6e2a03e612c5
+modified: 1687314325370
+created: 1687238620366
+url: "{{ _.baseUrl }}"
+name: insertMahasiswa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act": "InsertBiodataMahasiswa",
+        "token": "{{ _.token }}",
+        "record": {
+            "nama_mahasiswa": "Rian",
+            "jenis_kelamin": "L",
+            "tempat_lahir": "Bojong Sari II",
+            "tanggal_lahir": "1999/07/29",
+            "id_agama": 2,
+            "nik": "1233333333333337",
+            "nisn": "1234514259",
+            "kewarganegaraan": "IT",
+            "jalan": "Jagakarsa",
+            "dusun": "Jagakarsa",
+            "rt": "2",
+            "rw": "5",
+            "kelurahan": "Jagakarsa",
+            "kode_pos": "66666",
+            "id_wilayah": "016300  ",
+            "id_jenis_tinggal": "3",
+            "id_alat_transportasi": "5",
+            "telepon": "81219982331",
+            "handphone": "81219982331",
+            "email": "jorginho@gmail.com",
+            "penerima_kps": "Ya",
+            "nomor_kps": "12",
+            "nik_ayah": "2222222222222222",
+            "nama_ayah": "A'gung Father",
+            "tanggal_lahir_ayah": "1970/08/01",
+            "id_pendidikan_ayah": "6",
+            "id_pekerjaan_ayah": 3,
+            "id_penghasilan_ayah": 14,
+            "nik_ibu": "1111111111111111",
+            "nama_ibu_kandung": "A'gung Mother",
+            "tanggal_lahir_ibu": "1976/04/13",
+            "id_pendidikan_ibu": "5",
+            "id_pekerjaan_ibu": 8,
+            "id_penghasilan_ibu": 13,
+            "npwp": "43223",
+            "nama_wali": "Jorginho Wali",
+            "tanggal_lahir_wali": "2021/08/19",
+            "id_pendidikan_wali": "6",
+            "id_pekerjaan_wali": 6,
+            "id_penghasilan_wali": 15,
+            "id_kebutuhan_khusus_mahasiswa": 0,
+            "id_kebutuhan_khusus_ayah": 0,
+            "id_kebutuhan_khusus_ibu": 0
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687238620366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

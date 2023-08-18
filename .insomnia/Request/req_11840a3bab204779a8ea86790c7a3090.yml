@@ -1,0 +1,33 @@
+_id: req_11840a3bab204779a8ea86790c7a3090
+type: Request
+parentId: fld_bd31a70f20d346d69bff38c567258360
+modified: 1687238939447
+created: 1687238827703
+url: "{{ _.baseUrl }}"
+name: getAgama
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetAgama",
+        "token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"5",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687238827703
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

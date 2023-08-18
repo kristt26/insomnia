@@ -1,0 +1,35 @@
+_id: req_ce11570e28f04d6d8f97320ff6401014
+type: Request
+parentId: fld_93fb13db91cc4df286b9f6962e144a8e
+modified: 1692348429143
+created: 1692348354407
+url: "{{ _.baseUrl }}"
+name: getMatakuliah
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetListMataKuliah",
+        "token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1692348354407
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

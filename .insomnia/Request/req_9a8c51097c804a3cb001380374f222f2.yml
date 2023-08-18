@@ -1,0 +1,33 @@
+_id: req_9a8c51097c804a3cb001380374f222f2
+type: Request
+parentId: fld_bd31a70f20d346d69bff38c567258360
+modified: 1687239435306
+created: 1687239385639
+url: "{{ _.baseUrl }}"
+name: getProdi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetProdi", 
+    		"token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687239385639
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_9f535bcac47a404a8db228def3cbf550
+type: Request
+parentId: fld_1fe431d91bae4c41b69d6e2a03e612c5
+modified: 1687317732341
+created: 1687317691807
+url: "{{ _.baseUrl }}"
+name: GetDataLengkapMahasiswaProdi
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetDataLengkapMahasiswaProdi",
+        "token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687317691807
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

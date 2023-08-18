@@ -1,0 +1,33 @@
+_id: req_9ff0dfe64fd44b2ca9d827fa0cdee763
+type: Request
+parentId: fld_1fe431d91bae4c41b69d6e2a03e612c5
+modified: 1687241883792
+created: 1687241422889
+url: "{{ _.baseUrl }}"
+name: getRiwayatPendidikan
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetListRiwayatPendidikanMahasiswa",
+        "token":"{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687241422889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_f29edc65005643b8b7537113e1809adc
+type: Request
+parentId: fld_1fe431d91bae4c41b69d6e2a03e612c5
+modified: 1687243822683
+created: 1687241524938
+url: "{{ _.baseUrl }}"
+name: insertRiwayatPendidikan
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"InsertRiwayatPendidikanMahasiswa",
+        "token": "{{ _.token }}",
+        "record": {
+            "id_mahasiswa": "d6820f33-6f9a-4e4c-9224-5f7a9cdfe459",
+            "nim": "202311004",
+            "id_jenis_daftar": "1",
+            "id_jalur_daftar": "12",
+            "id_periode_masuk": "20222",
+            "tanggal_daftar": "2023/08/20",
+            "id_perguruan_tinggi": "14a2759a-ce83-48eb-85c9-db4f8de00f20",
+            "id_prodi": "dd8677e5-5bc1-4f37-a270-f1d005b3037c",
+            "id_pembiayaan": "1",
+            "biaya_masuk": "20000000"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687241524938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

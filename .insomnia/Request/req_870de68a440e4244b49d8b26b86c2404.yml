@@ -1,0 +1,33 @@
+_id: req_870de68a440e4244b49d8b26b86c2404
+type: Request
+parentId: fld_313737891df54ca89980c5be374c797e
+modified: 1687233149352
+created: 1687232972880
+url: "{{ _.baseUrl }}"
+name: getProfile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "act":"GetProfilPT",
+        "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9wZW5nZ3VuYSI6ImE2YmFkMTAyLTZjMTUtNDc3Ni04N2I0LTlkMjc4YmNjOTc5YSIsInVzZXJuYW1lIjoiMTQzMDIzIiwibm1fcGVuZ2d1bmEiOiJTVE1JSyBTRVBVTFVIIE5PUEVNQkVSIEpBWUFQVVJBIiwidGVtcGF0X2xhaGlyIjoiIiwidGdsX2xhaGlyIjoiMTg5OS0xMi0zMVQxNDozNzoxMi4wMDBaIiwiamVuaXNfa2VsYW1pbiI6IlAiLCJhbGFtYXQiOiIiLCJ5bSI6IiIsInNreXBlIjoiIiwibm9fdGVsIjoiIiwibm9faHAiOiIiLCJhcHByb3ZhbF9wZW5nZ3VuYSI6IjEiLCJhX2FrdGlmIjoiMSIsInRnbF9nYW50aV9wd2QiOm51bGwsImlkX3NkbV9wZW5nZ3VuYSI6bnVsbCwiaWRfcGRfcGVuZ2d1bmEiOm51bGwsImlkX3dpbCI6Ijk5OTk5OSAgIiwibGFzdF91cGRhdGUiOiIyMDE3LTEwLTI3VDAxOjA0OjA0Ljc0MFoiLCJzb2Z0X2RlbGV0ZSI6IjAiLCJsYXN0X3N5bmMiOiIyMDIzLTA1LTMxVDA1OjI2OjI2LjMxNFoiLCJpZF91cGRhdGVyIjoiZmJlYzBlZGQtYjc5Ni00Y2ZmLWFiMGItYWNkODBhZTUwNzdkIiwiY3NmIjoiLTk4MTkzNjQxNCIsInRva2VuX3JlZyI6bnVsbCwiamFiYXRhbiI6bnVsbCwidGdsX2NyZWF0ZSI6IjE5NjktMTItMzFUMTU6MDA6MDAuMDAwWiIsImlkX3BlcmFuIjozLCJubV9wZXJhbiI6IkFkbWluIFBUIiwiaWRfc3AiOiIxNGEyNzU5YS1jZTgzLTQ4ZWItODVjOS1kYjRmOGRlMDBmMjAiLCJpYXQiOjE2ODcyMzI4ODYsImV4cCI6MTY4NzIzNDY4Nn0.gXIj3F5vYcCdkM1ZNGo0jOeZjVr_xLQcui01xPOmyO0",
+        "filter":"",
+        "order":"",
+        "limit":"5",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687232972880
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_56389d76e9534cce980ffb7573f7d6ba
+type: Request
+parentId: fld_ce77765fcea84adba2b13d97b0b63ed9
+modified: 1688620597785
+created: 1688620484041
+url: "{{ _.baseUrl }}"
+name: getBiodataDosen
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"act": "DetailBiodataDosen",
+    	"token": "{{ _.token }}",
+    	"filter": "id_dosen='23bd1c2c-c2bc-484c-a3f6-5bdaf432afda'",
+    	"order": "",
+    	"limit": "",
+    	"offset": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1688620484041
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

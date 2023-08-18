@@ -1,0 +1,31 @@
+_id: req_5f32c837146d47ab9146630a4c6e51a6
+type: Request
+parentId: fld_ab8d6636efdd4d8399f824bf01adf9f3
+modified: 1692333209546
+created: 1692333146326
+url: "{{ _.baseUrl }}"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"act": "ExportDataMahasiswa",
+    	"token": "{{ _.token }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.3
+authentication: {}
+metaSortKey: -1692333146326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_2900bd839dc24f7689dffd8292bca0f2
+type: Request
+parentId: fld_ce77765fcea84adba2b13d97b0b63ed9
+modified: 1688620269484
+created: 1687233422417
+url: "{{ _.baseUrl }}"
+name: getListDosen
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetListDosen",
+        "token":"{{ _.token }}",
+        "filter":"id_status_aktif='1'",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687233422417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

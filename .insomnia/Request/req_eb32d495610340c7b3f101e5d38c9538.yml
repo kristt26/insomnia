@@ -1,0 +1,33 @@
+_id: req_eb32d495610340c7b3f101e5d38c9538
+type: Request
+parentId: fld_1fe431d91bae4c41b69d6e2a03e612c5
+modified: 1687233320451
+created: 1687233281425
+url: "{{ _.baseUrl }}"
+name: getListMahasiswa
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "act":"GetListMahasiswa",
+        "token": "{{ _.token }}",
+        "filter":"",
+        "order":"",
+        "limit":"",
+        "offset":"0"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687233281425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
